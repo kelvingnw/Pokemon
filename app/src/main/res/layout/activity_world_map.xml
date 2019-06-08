@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="7"
+        android:padding="20dp"
+        tools:context="edu.stts.pokemon.WorldMap"
+    >
+
+    <Button
+        android:id="@+id/btnSnow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/ice"
+        android:onClick="onClick"
+        android:text="Snow"
+        android:textAllCaps="true"
+        android:textColor="@color/dialogColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnVolcano"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/volcano"
+        android:onClick="onClick"
+        android:text="Volcano"
+        android:textAllCaps="true"
+        android:textColor="@color/dialogColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/btnForest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/viridian"
+        android:onClick="onClick"
+        android:text="Forest"
+        android:textAllCaps="true"
+        android:textColor="@color/dialogColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnSea"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/sea"
+        android:onClick="onClick"
+        android:text="Sea"
+        android:textAllCaps="true"
+        android:textColor="@color/dialogColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnThunder"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/thunder"
+        android:onClick="onClick"
+        android:text="Thunder"
+        android:textAllCaps="true"
+        android:textColor="@color/dialogColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnTrainer"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/original"
+        android:onClick="onClick"
+        android:text="Indigo Plateau"
+        android:textAllCaps="true"
+        android:textColor="@color/dialogColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

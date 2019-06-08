@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string-array name="element">
+        <item>Ice</item>
+        <item>Electric</item>
+        <item>Fire</item>
+        <item>Water</item>
+        <item>Grass</item>
+    </string-array>
+</resources>
